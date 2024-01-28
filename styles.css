@@ -8,8 +8,29 @@ body{
 }
 
 section{
-	padding-top: 25%;
 	text-align: center;
 	min-width: 320px;
 	max-width: 900px;
+	border: 2px solid black;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	border: 2px solid black;
+	min-height: 500px;
+}
+
+#btn, #newgame{
+	min-height: 50px;
+	min-width: 100px;
+}
+
+#section-two{
+	padding-top: 50px;
+}
+
+.players{
+	min-width: 100px;
 }
