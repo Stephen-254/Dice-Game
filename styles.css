@@ -1,0 +1,15 @@
+*{
+	padding: 0; 
+	box-sizing: border-box;
+}
+
+body{
+	text-transform: uppercase;
+}
+
+section{
+	padding-top: 25%;
+	text-align: center;
+	min-width: 320px;
+	max-width: 900px;
+}
