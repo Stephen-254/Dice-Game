@@ -5,19 +5,20 @@
 
 body{
 	text-transform: uppercase;
+	overflow-x: hidden;
 }
 
 section{
 	text-align: center;
-	min-width: 320px;
-	max-width: 900px;
 	border: 2px solid black;
 }
 
 .container{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+	
+	display: flex;
 	align-items: center;
+	justify-content: center;
+	gap: 60px;
 	border: 2px solid black;
 	min-height: 500px;
 }
@@ -31,6 +32,7 @@ section{
 	padding-top: 50px;
 }
 
-.players{
-	min-width: 100px;
+img{
+	display: block;
+	max-width: 100%
 }
